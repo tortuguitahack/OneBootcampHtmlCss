@@ -1,0 +1,17 @@
+.btn-moderm {
+    border: none;
+    border-radius: 5px;
+    background-color: #49ac49;
+    opacity: 0.8;
+    cursor:pointer;
+    padding: 15px;
+}
+
+.btn-modern:hover {
+    transform: translate(-5px);
+    box-shadow: 2px rgba(0, 0, 0, 0.2) ;
+    opacity: 1;
+    color: #fff;
+    background-color: #235e23;
+    transition: all 0.4s;
+}
