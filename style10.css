@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+}
+
+.lateral {
+    width: 30%;
+    background-color: #2C3639;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.principal {
+    flex-grow: 2;
+    background-color: #3F4E4F;
+}
+
+@media (max-widht:640px) {
+    body{
+        flex-direction: row;
+        align-items: flex-start;
+        width: 100%;
+        order: 2;
+    }
+}
